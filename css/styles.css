@@ -80,12 +80,18 @@ hr.dotted {
 }
 
 .btn {
-    background-color: #FFD369;
-    border-radius: 8%;
+    border-radius: 8px;
+    font-family: Arial;
     color: #222831;
-    padding: 10px;
+    font-size: 20px;
+    background: #FFD369;
+    padding: 10px 20px;
     text-decoration: none;
-}
+  }
+  
+  .btn:hover {
+    background: #d6c294;
+  }
 
 .mt-30 {
     padding-top: 30px;

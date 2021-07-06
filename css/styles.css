@@ -1,0 +1,150 @@
+/************************/
+/* General TAGS Styling */
+/************************/
+
+body, h1, h2, h3, h4, h5, h6{
+    font-family: 'Roboto', Verdana, sans-serif;
+    font-size: 1.3rem;
+    margin:0 auto;
+    text-align: center;
+}
+
+div {
+    padding: 70px 10%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #FFD369;
+}
+
+a, a:visited {
+    color: #FFD369;
+}
+
+
+
+/*********************************/
+/* Specific Classed TAGS Styling */
+/*********************************/
+
+h1.title {
+    font-family: 'Sacramento', serif;
+    font-size: 5.6rem;
+}
+
+h2.sub-title {
+    font-size: 1.6rem;
+    font-weight: normal;
+}
+
+img.top-cloud {
+    position:absolute;
+    right: 200px;
+    top: 50px;
+}
+
+img.bottom-cloud {
+    left: 200px;
+    position: absolute;
+    top: 280px;
+}
+
+img.avatar{
+    border-radius: 50%;
+    float: left;
+    margin-right: 30px;
+    width: 150px;
+}
+
+hr.dotted {
+    border-style: dotted none none;
+    border-width: 7px;
+    margin-top: 60px;
+    width: 10%;
+}
+
+
+
+/*************************/
+/* General CLASS Styling */
+/*************************/
+
+.dark {
+    background-color: #222831;
+    color:#EEEEEE;
+}
+
+.light {
+    background-color: #393E46;
+    color:#EEEEEE;
+}
+
+.btn {
+    background-color: #FFD369;
+    border-radius: 8%;
+    color: #222831;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.mt-30 {
+    padding-top: 30px;
+}
+
+.footer {
+    padding-top: 30px;
+    font-size: .8rem;
+}
+
+
+
+/***************************/
+/* Container CLASS Styling */
+/***************************/
+
+.top-container {
+    padding-top: 100px;
+    position: relative;
+}
+
+.profile-container p {
+    line-height: 2;
+    margin-top:0;
+    text-align: justify;
+}
+
+.projects-container ul {
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: left;
+}
+
+.experience-container p.years{
+    font-weight: bolder;
+    margin-bottom: 0;
+}
+
+.experience-container p.position {
+    font-size: 1.2rem;
+    font-style: italic;
+    font-weight: normal;
+    margin-top: 0;
+}
+
+.skills-container {
+    text-align: left;
+}
+
+.skills-container table {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top :20px
+}
+
+.skills-container td {
+    padding-left: 15px;
+}
+
+.contact-container {
+    padding-bottom: 20px;
+}
